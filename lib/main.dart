@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:hieu_s_application4/pages/Screen1-5/Screen1.dart';
+import 'package:hieu_s_application4/pages/Home/Lastpage/Shop/Shop.dart';
+import 'package:hieu_s_application4/pages/Register/Start.dart';
+import 'package:hieu_s_application4/pages/Home/Listpage/HomeList.dart';
 import '../theme/theme_helper.dart';
 
 var globalMessengerKey = GlobalKey<ScaffoldMessengerState>();
@@ -26,6 +28,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Begin());
+        home: Start());
   }
 }

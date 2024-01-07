@@ -6,9 +6,8 @@ class AppDecoration {
   static BoxDecoration get fillGray => BoxDecoration(
         color: appTheme.gray50,
       );
-  static BoxDecoration get fillPrimary => BoxDecoration(
-        color: theme.colorScheme.primary,
-      );
+  static BoxDecoration get fillPrimary =>
+      BoxDecoration(color: Color.fromARGB(39, 205, 205, 205));
   static BoxDecoration get fillTeal => BoxDecoration(
         color: appTheme.teal700,
       );
